@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="app/src/main/res/drawable/ic_dompet.xml">
+    <img src="https://user-images.githubusercontent.com/64635497/179383549-5726e3d3-1f29-4483-8e50-07dde79c8704.png">
   </a>
 </p>
 <br>
