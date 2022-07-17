@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278021477045",
+    "project_id": "pencatat-uang-suharto",
+    "storage_bucket": "pencatat-uang-suharto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278021477045:android:03be71148404150bea64fc",
+        "android_client_info": {
+          "package_name": "com.ziyad.pencatatuang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278021477045-5e7c026evv78tck3f3m07a8esgljfg3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ziyad.pencatatuang",
+            "certificate_hash": "d48c39cd7be0c9563b3de0efcbaaee27ab7a809d"
+          }
+        },
+        {
+          "client_id": "278021477045-4npdiunu42tf5om07plj24m1f4dobnnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByg2GDPtYgt4muplHBX5DRJXwAlsmPmo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278021477045-4npdiunu42tf5om07plj24m1f4dobnnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

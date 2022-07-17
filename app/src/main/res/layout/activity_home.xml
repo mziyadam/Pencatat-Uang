@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:background="@drawable/textview_border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/button"
+            android:textColor="@color/black"
+            android:background="@drawable/textview_border"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:text="Bln/Thn"
+            android:gravity="center"
+android:layout_weight="2"
+            >
+
+
+        </TextView>
+
+        <Spinner
+            android:background="@drawable/textview_border"
+            android:id="@+id/tipe"
+            android:layout_marginVertical="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+
+            android:gravity="center"/>
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+<!--            <Button-->
+<!--                android:id="@+id/btn_apply"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="1dp"-->
+<!--                android:text="@string/apply">-->
+
+<!--            </Button>-->
+<!--            <Button-->
+<!--                android:id="@+id/btn_reset"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="1dp"-->
+<!--                android:text="@string/apply">-->
+
+<!--            </Button>-->
+<!--        </LinearLayout>-->
+                    <Button
+                        android:id="@+id/btn_apply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:text="@string/apply"></Button>
+        <ImageButton
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_settings_backup_restore_24"
+            android:padding="8dp"
+            android:backgroundTint="@color/green_300"
+            android:layout_marginVertical="8dp">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/btn_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_settings_24"
+            android:padding="8dp"
+            android:layout_marginVertical="8dp"
+            android:layout_marginEnd="8dp">
+
+        </ImageButton>
+
+
+        <!--        <ImageButton-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="44dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:padding="16dp"-->
+<!--            android:src="@drawable/ic_baseline_date_range_24"/>-->
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+        </ScrollView>
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:background="@drawable/textview_border"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="5"
+            >
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bulan ini : ">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_plus_bulan_ini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green_500"
+                android:text="+ Rp 0">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_minus_bulan_ini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_500"
+                android:text="- Rp 0">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_total_bulan_ini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yellow_500"
+                android:text="= Rp 0">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total : ">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_plus_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green_500"
+                android:text="+ Rp 0">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_minus_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_500"
+                android:text="- Rp 0">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_total_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yellow_500"
+                android:text="= Rp 0">
+
+            </TextView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:layout_weight="1"
+            android:textSize="40dp">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
