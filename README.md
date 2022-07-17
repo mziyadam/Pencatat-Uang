@@ -13,6 +13,9 @@ Pencatat Uang : Simple application to record expenses and income.
 # About The Project
 An application that provides financial recording features such as adding expenses and income, editing, deleting, and filtering.
 
+## Authentication
+![WhatsApp Image 2022-07-17 at 11 04 21](https://user-images.githubusercontent.com/64635497/179383507-83a949e0-c8bb-4e52-9712-b7bb539fa9b1.jpeg)
+
 ## Home
 ![WhatsApp Image 2022-07-17 at 10 48 37](https://user-images.githubusercontent.com/64635497/179383208-5eb945c2-e150-42cb-a86c-d1e412976340.jpeg)
 ![WhatsApp Image 2022-07-17 at 10 48 38 (1)](https://user-images.githubusercontent.com/64635497/179383264-5b3936a0-d682-4252-9cbf-43da836967e7.jpeg)
