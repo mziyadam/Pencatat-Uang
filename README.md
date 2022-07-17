@@ -27,7 +27,7 @@ An application that provides financial recording features such as adding expense
 ![WhatsApp Image 2022-07-17 at 10 48 40 (2)](https://user-images.githubusercontent.com/64635497/179383308-b8810e88-e250-44e1-b588-552dcc13797a.jpeg)
 ![WhatsApp Image 2022-07-17 at 10 48 40](https://user-images.githubusercontent.com/64635497/179383310-0e806537-f198-47b5-a05e-171854429b18.jpeg)
 
-##Setting
+## Setting
 ![WhatsApp Image 2022-07-17 at 10 48 41 (1)](https://user-images.githubusercontent.com/64635497/179383319-47fe833d-7daf-49ae-8521-13be0efa6989.jpeg)
 
 # Prerequisites
